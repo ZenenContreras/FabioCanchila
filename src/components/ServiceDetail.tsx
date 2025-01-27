@@ -76,11 +76,7 @@ export default function ServiceDetail() {
             <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
               {service.title}
             </h1>
-
             <div className="prose prose-lg max-w-none text-gray-700 mb-8">
-              <p className="text-xl text-gray-600 mb-6">
-                {service.description}
-              </p>
               {service.content}
             </div>
 

@@ -12,7 +12,7 @@ export default function Footer() {
           {/* About Section */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-6">
-              <img src="/logo.png" alt="Logo" className="h-12 w-12 mr-3" />
+              <img src="/logo.png" alt="Logo" className="h-14 w-14 mr-1" />
               <h3 className="text-2xl font-bold">Fabio Canchila</h3>
             </div>
             <p className="text-custom-white/80 mb-6 text-base sm:text-lg leading-relaxed">
@@ -36,7 +36,7 @@ Trabajo con personas, empresas, instituciones y organizaciones para aumentar sus
                 <Linkedin size={24} />
               </a>
               <a 
-                href="https://www.instagram.com/fabio_canchila/" 
+                href="https://twitter.com/fabiocanchila" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-custom-white/60 hover:text-accent transition-colors transform hover:scale-110"
@@ -44,7 +44,7 @@ Trabajo con personas, empresas, instituciones y organizaciones para aumentar sus
                 <Twitter size={24} />
               </a>
               <a 
-                href="https://twitter.com/fabiocanchila" 
+                href="https://www.instagram.com/fabio_canchila/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-custom-white/60 hover:text-accent transition-colors transform hover:scale-110"
@@ -68,7 +68,8 @@ Trabajo con personas, empresas, instituciones y organizaciones para aumentar sus
                 { to: "/", text: "Inicio" },
                 { to: "/products", text: "Productos" },
                 { to: "/services", text: "Servicios" },
-                { to: "/blog", text: "Blog" }
+                { to: "/blog", text: "Blog" },
+                { to:"/About " , text: "Sobre Mi"}
               ].map((link) => (
                 <li key={link.to}>
                   <Link 
@@ -92,7 +93,7 @@ Trabajo con personas, empresas, instituciones y organizaciones para aumentar sus
                   className="flex items-center text-custom-white/60 hover:text-accent transition-colors group"
                 >
                   <Mail size={20} className="mr-3 group-hover:scale-110 transition-transform" />
-                  <span>contacto@fabiocanchila.com</span>
+                  <span>fc@fabiocanchila.com</span>
                 </a>
               </li>
               <li>
@@ -101,7 +102,7 @@ Trabajo con personas, empresas, instituciones y organizaciones para aumentar sus
                   className="flex items-center text-custom-white/60 hover:text-accent transition-colors group"
                 >
                   <Phone size={20} className="mr-3 group-hover:scale-110 transition-transform" />
-                  <span>+57 300 123 4567</span>
+                  <span>+57 3103688201</span>
                 </a>
               </li>
               <li className="flex items-center text-custom-white/60 group">
