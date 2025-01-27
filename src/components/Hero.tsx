@@ -98,7 +98,7 @@ export default function Hero() {
               <img
                 src="https://media.licdn.com/dms/image/v2/D4E03AQHa3yNiph2JhA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1720208228895?e=1743033600&v=beta&t=ha5UMLDIvjEPSaxokcXCy4KdTh38yxy9BWSWWJzndNk"
                 alt="Fabio Canchila"
-                className="rounded-2xl shadow-2xl aspect-square object-cover w-full mix-blend-multiply transform hover:scale-105 transition-transform duration-300"
+                className="rounded-2xl object-cover w-full mix-blend-multiply "
                 style={{ mixBlendMode: 'multiply' }}
               />
             </motion.div>
