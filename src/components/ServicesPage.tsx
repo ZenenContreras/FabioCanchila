@@ -90,7 +90,7 @@ export default function ServicesPage({ showHeading = true, maxServices }: Servic
 
   return (
     <section className={`py-16 sm:py-20 bg-custom-gray-light ${!showHeading ? 'pt-0' : 'pt-24'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
         {showHeading && (
           <div className="text-center mb-12 sm:mb-16">
             <motion.h1 
