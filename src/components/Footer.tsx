@@ -66,7 +66,7 @@ Trabajo con personas, empresas, instituciones y organizaciones para aumentar sus
             <ul className="space-y-4">
               {[
                 { to: "/", text: "Inicio" },
-                { to: "/products", text: "Productos" },
+                { to: "/products", text: "Publicaciones" },
                 { to: "/services", text: "Servicios" },
                 { to: "/blog", text: "Blog" },
                 { to:"/About " , text: "Sobre Mi"}
