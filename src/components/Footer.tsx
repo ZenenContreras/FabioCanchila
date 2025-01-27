@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Youtube, Linkedin, Twitter, Mail, Phone, MapPin, BookOpen } from 'lucide-react';
+import { Youtube, Linkedin, Twitter, Mail, Phone, MapPin, BookOpen, Instagram } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -36,12 +36,20 @@ Trabajo con personas, empresas, instituciones y organizaciones para aumentar sus
                 <Linkedin size={24} />
               </a>
               <a 
-                href="https://twitter.com/fabiocanchila" 
+                href="https://www.instagram.com/fabio_canchila/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-custom-white/60 hover:text-accent transition-colors transform hover:scale-110"
               >
                 <Twitter size={24} />
+              </a>
+              <a 
+                href="https://twitter.com/fabiocanchila" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-custom-white/60 hover:text-accent transition-colors transform hover:scale-110"
+              >
+                <Instagram size={24} />
               </a>
               <Link 
                 to="/products" 
